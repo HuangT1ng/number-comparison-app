@@ -26,7 +26,7 @@ function App() {
   const fetchDefaultNumbers = () => {
     setLoading(true);
     // Fetch the numbers from the JSON file
-    fetch('/numbers.json')
+    fetch(process.env.PUBLIC_URL + '/numbers.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch numbers');

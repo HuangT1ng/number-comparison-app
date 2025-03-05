@@ -67,21 +67,21 @@ function FileUploader({ onNumbersLoaded }) {
         
         <div className="sample-links">
           <a 
-            href="/sample.json" 
+            href={process.env.PUBLIC_URL + '/sample.json'} 
             download="sample.json"
             className="download-sample"
           >
             Download Sample JSON
           </a>
           <a 
-            href="/overlap-sample.json" 
+            href={process.env.PUBLIC_URL + '/overlap-sample.json'} 
             download="overlap-sample.json"
             className="download-sample"
           >
             Download Sample with Overlapping Numbers
           </a>
           <a 
-            href="/example-for-highlighting.json" 
+            href={process.env.PUBLIC_URL + '/example-for-highlighting.json'} 
             download="example-for-highlighting.json"
             className="download-sample highlight-example"
           >
