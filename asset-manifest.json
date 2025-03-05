@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/number-comparison-app/static/css/main.fb483f1e.css",
+    "main.js": "/number-comparison-app/static/js/main.dc7d5d26.js",
+    "static/js/453.8ab44547.chunk.js": "/number-comparison-app/static/js/453.8ab44547.chunk.js",
+    "index.html": "/number-comparison-app/index.html",
+    "main.fb483f1e.css.map": "/number-comparison-app/static/css/main.fb483f1e.css.map",
+    "main.dc7d5d26.js.map": "/number-comparison-app/static/js/main.dc7d5d26.js.map",
+    "453.8ab44547.chunk.js.map": "/number-comparison-app/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb483f1e.css",
+    "static/js/main.dc7d5d26.js"
+  ]
+}
